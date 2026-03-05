@@ -1,6 +1,45 @@
-day1/
-venv/
+# 1. Python cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.Python
+
+# 2. Virtual Environments
+venv/
+.venv/
+env/
+bin/
+lib/
+
+# 3. Thông tin nhạy cảm và cấu hình
 .git
+.gitignore
 .env
+.dockerignore
+secrets.py
+*.pem
+*.key
+
+# 4. Cấu hình IDE (VS Code, PyCharm)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 5. Dữ liệu và Log
+*.log
+logs/
+data/
+temp/
+.cache/
+
+# 6. File hệ thống
+.DS_Store
+Thumbs.db
+
+# 7. Thư mục build và tài liệu cá nhân
+day1/
+docs/
+tests/
+README.md
