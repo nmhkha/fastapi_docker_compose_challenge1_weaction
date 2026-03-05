@@ -1,0 +1,6 @@
+day1/
+venv/
+__pycache__/
+*.pyc
+.git
+.env
